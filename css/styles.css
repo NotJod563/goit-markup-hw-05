@@ -684,14 +684,9 @@ img {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button-close:focus {
+.modal__button-close:focus, .modal__button-close:hover {
     border: none;
     background-color: var(--color-denim);
-}
-
-.modal__button-close:hover {
-    border: none;
-    background-color: #404bbf;
 }
 
 .modal__icon-close {
