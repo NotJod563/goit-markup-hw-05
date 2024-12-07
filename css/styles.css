@@ -684,7 +684,11 @@ img {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button-close:focus,
+.modal__button-close:focus {
+    border: none;
+    background-color: var(--color-denim);
+}
+
 .modal__button-close:hover {
     border: none;
     background-color: #404bbf;
@@ -705,7 +709,6 @@ img {
     line-height: 1.5;
     text-align: center;
     margin-bottom: 16px;
-    display: block;
 }
 
 .modal__wrapper {
@@ -812,14 +815,14 @@ img {
     margin-right: 8px;
 }
 
-.modal__check-input:checked+.modal__check-text>.modal__check-box {
+.modal__check-input:checked+ .modal__check-text > .modal__check-box {
     background-color: var(--color-denim);
-    fill: var(--cloud-color);
+    fill: var(--color-lavander);
     border: none;
 }
 
 .modal__link-text {
-    color: var(--iris-color);
+    color: var(--color-iris);
     text-decoration: underline;
 }
 
