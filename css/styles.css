@@ -684,11 +684,11 @@ img {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button-close:hover .modal__icon-close {
+.modal__button-close:hover + .modal__icon-close {
     fill: var(--color-white);
 }
 
-.modal__button-close:focus .modal__icon-close {
+.modal__button-close:focus + .modal__icon-close {
     fill: var(--color-white);
 }
 
@@ -814,7 +814,7 @@ img {
     margin-right: 8px;
 }
 
-.modal__check-input:checked+ .modal__check-text > .modal__check-box {
+.modal__check-input:checked+ .modal__check-text .modal__check-box {
     background-color: var(--color-denim);
     fill: var(--color-lavander);
     border: none;
